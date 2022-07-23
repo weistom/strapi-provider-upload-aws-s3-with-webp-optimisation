@@ -91,7 +91,7 @@ See `webp` object in each size object.
     "url": "https://xxxxxx.cloudfront.net/images/small_2000x1000_47fb084046.png",
     "hash": "small_2000x1000_47fb084046",
     "mime": "image/png",
-    "name": "small_2778x1284.png",
+    "name": "small_2000x1000.png",
     "path": null,
     "size": 55.6,
     "webp": {
@@ -112,7 +112,7 @@ See `webp` object in each size object.
     "url": "https://xxxxxx.cloudfront.net/images/medium_2000x1000_47fb084046.png",
     "hash": "medium_2000x1000_47fb084046",
     "mime": "image/png",
-    "name": "medium_2778x1284.png",
+    "name": "medium_2000x1000.png",
     "path": null,
     "size": 107.93,
     "webp": {
@@ -133,7 +133,7 @@ See `webp` object in each size object.
     "url": "https://xxxxxx.cloudfront.net/images/thumbnail_2000x1000_47fb084046.png",
     "hash": "thumbnail_2000x1000_47fb084046",
     "mime": "image/png",
-    "name": "thumbnail_2778x1284.png",
+    "name": "thumbnail_2000x1000.png",
     "path": null,
     "size": 17.19,
     "webp": {
