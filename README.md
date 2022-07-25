@@ -1,26 +1,20 @@
-[![npm version](https://badge.fury.io/js/strapi-provider-upload-aws-s3-with-webp-optimisation.svg)](https://badge.fury.io/js/strapi-provider-upload-aws-s3-with-webp-optimisation)
-
 # strapi-provider-upload-aws-s3-with-webp-optimisation
 
 Optimizes images by using [sharp](https://sharp.pixelplumbing.com/).
-
 Also outputs WebP image on upload.
-
 This plugin is tested on strapi with strapi >= 4.0.0.
 
 ## Installation
 
 `npm install strapi-provider-upload-aws-s3-with-webp-optimisation`
-
 or
-
 `yarn add strapi-provider-upload-aws-s3-with-webp-optimisation`
 
 ## Configurations
 
 Your configuration is passed down to the provider. (e.g: `new AWS.S3(config)`).
-
-You can see the complete list of options [here](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#constructor-property).
+You can see the complete list of
+options [here](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#constructor-property).
 
 **Example**
 `./config/plugins.js`
@@ -67,11 +61,8 @@ module.exports = ({ env }) => ({
 ```
  
 Upload WebP URLs are saved into `formats` in `files` table.
-
 You need to `Enable responsive friendly upload` setting is enabled in the settings panel to generate responsive image sizes.
-
 See `webp` object in each size object.
-
 ```json
 {
   "large": {
