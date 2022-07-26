@@ -1,12 +1,12 @@
-[![npm version](https://badge.fury.io/js/strapi-provider-upload-aws-s3-with-webp-optimisation.svg)](https://badge.fury.io/js/strapi-provider-upload-aws-s3-with-webp-optimisation)
-
 # strapi-provider-upload-aws-s3-with-webp-optimisation
 
-Optimizes images by using [sharp](https://sharp.pixelplumbing.com/).
+Optimizes image by using [sharp](https://sharp.pixelplumbing.com/).
 
 Also outputs WebP image on upload.
 
 This plugin is tested on strapi with strapi >= 4.0.0.
+
+[![npm version](https://badge.fury.io/js/strapi-provider-upload-aws-s3-with-webp-optimisation.svg)](https://badge.fury.io/js/strapi-provider-upload-aws-s3-with-webp-optimisation)
 
 ## Installation
 
